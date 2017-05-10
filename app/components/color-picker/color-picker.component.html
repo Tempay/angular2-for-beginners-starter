@@ -1,0 +1,10 @@
+<div class="color-title" [ngStyle]="{color:color}">
+    Pick a Color:
+</div>
+<div class="color-picker">
+    <div class="color-sample color-sample-blue" (click)="choose('${RED}')"></div>
+    <div class="color-sample color-sample-red" (click)="choose($BLUE)"></div>
+</div>
+<div>
+    <button class="btn-reset" (click)="reset()"></button>
+</div>
